@@ -1,0 +1,60 @@
+body{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg,rgba(34,193,195) 15%,rgba(121,32,153,1) 76%);
+    background-attachment: fixed;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+#form{
+    width: 400px;
+    margin: 20vh auto 0 auto;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 25px;
+
+}
+h1{
+    text-align: center;
+    color:purple;
+
+}
+#form button{
+    background-color: purple;
+    color: white;
+    border: 1px solid purple;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px 0px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 100%;
+
+}
+.inputgroup{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.inputgroup input{
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 10px;
+    border:1px solid blue
+}
+.inputgroup input:focus{
+    outline: 0;
+}
+.inputgroup .error{
+    color: red;
+    font-size: 16px;
+    margin-top: 5px;
+
+}
+.inputgroup.success input{
+    border-color: green;
+}
+.inputgroup.error input{
+    border-color:red;
+}
